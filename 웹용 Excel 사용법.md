@@ -2,7 +2,7 @@
 # 1. 웹용 Excel 접속
 - <a href="https://excel.cloud.microsoft/?wdOrigin=WAC.EXCEL.HOME-BUTTON&wdPreviousSession=296f64a9-32a9-f26c-727b-0f2bd340986a&wdPreviousSessionSrc=WAC">웹용 Excel, 클릭 시 이동됩니다.</a>
 
-![](./attached%20files/Pasted%20image%2020260130112102.png)
+![](./Attached%20files/Pasted%20image%2020260130112102.png)
 
 # 2. 파일 업로드
 - 수정할 파일을 웹용 Excel에 업로드합니다. 화면 왼쪽 상단의 파일 업로드 버튼을 누릅니다.
