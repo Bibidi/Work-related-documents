@@ -43,10 +43,15 @@ Network & Host Name 메뉴로 들어갑니다. 여러 NIC(Network Interface Card
 ![](./Attached%20files/KakaoTalk_20260409_161458669.jpg)
 
 NIC 내부 값을 변경합니다. 값은 보통 견적서에 나와있으며, 밑은 예시입니다.
+
 IPADDR = 14.0.87.74 -> Address에 입력
+
 NETMASK = 255.255.255.192 -> Netmask에 입력
+
 GATEWAY = 14.0.87.65 -> Gateway에 입력
+
 DNS1 = 210.220.163.82 -> DNS servers에 입력
+
 DNS2 = 164.124.101.2 -> DNS servers에 입력(쉼표(,)로 구분)
 
 **Search Domain에 DNS2 넣는 건 오류. 사진도 수정해야함**
@@ -89,7 +94,9 @@ User Creation 메뉴에서 운영용 계정을 만듭니다. 견적서에 나와
 ![](./Attached%20files/KakaoTalk_20260409_161508221.jpg)
 
 systemctl stop firewalld : 방화벽 끄는 명령어
+
 systemctl disable firewalld : 재부팅해도 방화벽 비활성화되도록 하는 명령어
+
 systemctl status firewalld : 방화벽 현재 상태 확인
 
 firewalld.service : disabled가 보이면 비활성화 된 것입니다.
@@ -100,6 +107,7 @@ firewalld.service : disabled가 보이면 비활성화 된 것입니다.
 ![](./Attached%20files/KakaoTalk_20260409_161509135.jpg)
 
 update-crypto-policies --set LEGACY : crypto policy를 LEGACY로 바꾸는 명령어
+
 update-crypto-policies --show : 현재 crypto policy 정책을 보여주는 명령어. LEGACY가 나오면 올바르게 변경된 것입니다.
 
 ## 4-3 SELinux 비활성화
