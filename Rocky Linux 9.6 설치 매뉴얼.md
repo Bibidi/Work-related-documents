@@ -47,7 +47,9 @@ IPADDR = 14.0.87.74 -> Address에 입력
 NETMASK = 255.255.255.192 -> Netmask에 입력
 GATEWAY = 14.0.87.65 -> Gateway에 입력
 DNS1 = 210.220.163.82 -> DNS servers에 입력
-DNS2 = 164.124.101.2 -> Search domains에 입력
+DNS2 = 164.124.101.2 -> DNS servers에 입력(쉼표(,)로 구분)
+
+**Search Domain에 DNS2 넣는 건 오류. 사진도 수정해야함**
 
 ## 3-3. 디스크 선택 및 파티션 구성
 ![](./Attached%20files/KakaoTalk_20260409_161459838.jpg)
